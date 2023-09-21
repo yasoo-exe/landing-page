@@ -36,7 +36,7 @@
     font-weight: 800;
 }
 
-.hero p, button {
+.hero p, .hero button {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -108,4 +108,35 @@
     font-size: 18px;
 }
 
+.ctasection {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 60%;
+    height: 30%;
+    padding: 0 4%;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+.cta button {
+    padding: 5px 20px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border: 2px solid #e5e7eb;
+    border-radius: 10%;
+    font-size: 18px;
+
+}
 
