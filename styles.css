@@ -1,0 +1,70 @@
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding-top: 20px;
+}
+
+.logo, .navbar ul {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero {
+    display: flex;
+    background-color: #1f2937;
+
+}
+.hero h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero p, button {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+    
+}
+
+.hero-text {
+    width: 400px;
+    }
+
+
+.hero-img {
+    width: 300px;
+}
+
+.hero button {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 15%;
+}
+
+
+
