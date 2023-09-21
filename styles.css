@@ -50,20 +50,24 @@
 }
 
 .hero-text {
-    width: 400px;
+    width: 450px;
     }
 
+.hero-text div {
+    margin: 5px;
+}
 
-.hero-img {
-    width: 300px;
+.hero-img img{
+    width: 500px;
+    height: 100%;
 }
 
 .hero button {
     margin-top: 5px;
-    padding: 5px;
+    padding: 8px 5%;
     background-color: #3882f6;
     color: #e5e7eb;
-    border-radius: 15%;
+    border-radius: 10%;
 }
 
 .cards {
@@ -81,6 +85,11 @@
     text-align: center;
 }
 
+.cards div img {
+    width: 100%;
+    height: 100%;
+}
+
 .card-header {
     font-weight: 800;
     font-size: 36px;
@@ -90,7 +99,7 @@
 }
 
 .quote {
-    padding: 0 20%;
+    padding: 0 25%;
     background-color: #e5e7eb;
     height: 400px;
     display: flex;
@@ -109,7 +118,7 @@
 }
 
 .ctasection {
-    height: 300px;
+    height: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
