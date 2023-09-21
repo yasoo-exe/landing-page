@@ -70,6 +70,7 @@
     display: flex;
     justify-content: center;
     gap: 120px;
+    flex-wrap: wrap;
 }
 
 .cards div {
@@ -88,5 +89,23 @@
     margin: 40px 0;
 }
 
+.quote {
+    padding: 0 20%;
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoteauthor {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 
