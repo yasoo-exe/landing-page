@@ -23,7 +23,7 @@
 * {
     border: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .hero {
     display: flex;
